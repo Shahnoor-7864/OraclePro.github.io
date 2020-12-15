@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar-toggler{
+  background-color:rgb(139, 7, 7) ;
+} 
+.brand{
+    margin-left: 100px;
+}
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+}
+.brand h4{
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 5px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.head{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(139, 7, 7);
+}
+.card {
+    height: auto;
+    border-radius: 10px;
+    border:2px solid red;
+}
+.card :hover{
+    background-color: rgb(173, 16, 16);
+    color:white
+} 
+.card h4{
+    font-size: 25px;
+}
+.client{
+    height:auto;
+    width: 100%;
+}
+.client h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.client h3 {
+    font-size: 34px;
+    font-weight: bold;
+}
+.card img{
+    height: 60px;
+    width: 60px;
+    color: red;
+}
+
+.card :hover{
+    background-color: rgb(173, 16, 16);
+    color:white
+} 
+.dropdown-menu{
+    background-color: black;
+}
+footer {
+    height: 480px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+.contact{
+    height: 400px;
+    width: 350px;
+}
+.contact h5 {
+    font-size: 20px;
+}
+.pages li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.pages li {
+    margin-top: 30px;
+}
+
+.pages{
+    margin-left: 170px;
+}
+.ask{
+    color:  rgb(173, 16, 16);
+}
+form {
+    margin-top: 100px;
+}
+.txt {
+    width: 97%;
+    border: 2px solid rgb(173, 16, 16);
+}
+.area {
+    height: 600px;
+    width: 100%;
+}
+.foot{
+    display: flex;
+}
+@media (max-width: 664px){
+    .client{
+      height: 1150px;
+    }
+    .foot{
+      display: block;
+    }
+    footer{
+      height: 770px;
+    }
+  }
+ @media (max-width: 768px) {
+   
+   .card h4{
+     font-size: 15px;
+   }
+ }
+
